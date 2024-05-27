@@ -1,0 +1,17 @@
+.box {
+    border: solid 50px #FDA7DF;
+    width: 200px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.green{
+    border : solid 50px #D980FA;
+    visibility: hidden; /* 공간은 남겨두고 사라짐*/
+    /* display: none;-> 공간도 사라짐*/
+
+}
+
+.blue{
+    border : solid 50px #9980FA;
+}
