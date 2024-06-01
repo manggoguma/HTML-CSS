@@ -1,0 +1,193 @@
+body {
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 43PX;
+    width: 152PX;
+}
+
+.links {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 28px 17px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+main {
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    height: 969px;
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {}
+
+.headline {
+    font-size: 136px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 250px;
+    padding-bottom: 40px;
+}
+
+.headline-first {
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline {
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+button {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    color: #2941ab;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.menus {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logs {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerCover {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.menusItems {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.menu-title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.menu-link {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.logbox {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.icon:hover {
+    color: #2de26d;
+}
+
+.firstline {
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    color: #919496;
+}
+
+.secondline {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.part1 {
+    color: #919496;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.part1 a {
+    color: #919496;
+    text-decoration: none;
+}
+
+.part1 a:hover {
+    color: #1ed760;
+}
+
+
+.part2 {
+    color: #919496;
+}
